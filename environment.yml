@@ -1,0 +1,9 @@
+name: py37-pytorch
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pytorch
+  - torchvision
