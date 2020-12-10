@@ -2,7 +2,6 @@ name: py37-pytorch
 channels:
   - conda-forge
   - pytorch
-  - dglteam
 dependencies:
   - python=3.7
   - pip
@@ -14,6 +13,5 @@ dependencies:
   - torchvision
   - torchtext
   - nb_conda_kernels
-  - dgl>=0.4.3
   - pip:
     - torchviz
